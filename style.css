@@ -1,0 +1,55 @@
+form{
+    height: 20rem;
+    width:20% ;
+    background-color: aquamarine;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.head{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.select-cont{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.side{
+ display: flex;
+ margin-top: 3rem;
+ align-items: center;
+ justify-content: space-between;
+}
+.leftselect,.rightselect{
+    display: flex;
+    height: 2rem;
+    width: 5rem;
+   
+ }
+ #selector{
+    /* border-radius: 5px; */
+    border: none;
+    outline: none;
+ }
+ #display{
+    width: 90%;
+    height: 2rem;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    
+ }
+ #btn{
+     margin-top: 2rem;
+    height:2rem;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: blue;
+    color: aliceblue;
+    font-weight: 600;
+ }
+  
